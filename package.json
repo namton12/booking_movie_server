@@ -1,0 +1,33 @@
+{
+  "name": "Doantotnghiep-Backend-Api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/namton12/Doantotnghiep-Backend-Api.git",
+  "author": "toanhhg123 <toanhhg123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blubird": "^0.0.1-security",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "react-scroll": "^1.8.9",
+    "sequelize": "^6.25.3",
+    "solc": "^0.8.17",
+    "uuid": "^9.0.0",
+    "web3": "^1.8.1"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
